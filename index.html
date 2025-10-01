@@ -3,40 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome to Leeds Karting</title>
+  <title>Leeds Karting / Roblox‑Discord Verification</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background: #f8f9fa;
+      color: #333;
       margin: 0;
       padding: 0;
+    }
+    header, footer {
+      background: #222;
+      color: white;
+      padding: 15px 20px;
       text-align: center;
     }
+    header nav a {
+      color: #ddd;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    header nav a:hover {
+      color: white;
+    }
     .container {
-      padding: 30px;
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
     }
     h1 {
       color: #222;
     }
+    p {
+      line-height: 1.6;
+    }
     a.button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
-      background: #333;
+      margin: 30px 0;
+      padding: 14px 24px;
+      background: #007bff;
       color: white;
       text-decoration: none;
       border-radius: 5px;
     }
     a.button:hover {
-      background: #555;
+      background: #0056b3;
+    }
+    .features {
+      text-align: left;
+      margin-top: 30px;
+    }
+    .features ul {
+      list-style: disc inside;
+    }
+    .support {
+      margin-top: 40px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="terms.html">Terms of Service</a> |
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
   <div class="container">
-    <h1>Welcome to Leeds Karting</h1>
-    <p>This is the entry point for verifying your Roblox account with Discord and accessing integrated features.</p>
-    <a href="https://www.roblox.com/games/" class="button">Visit the Game</a>
+    <h1>Leeds Karting Verification & Role Sync</h1>
+    <p>Welcome! This app allows users to link their <strong>Roblox account</strong> with their <strong>Discord account</strong> to verify group rank, assign roles, and use moderation tools seamlessly.</p>
+
+    <a href="index.html" class="button">Begin Verification</a>
+    <!-- You may change the above link to your OAuth “start” route if different -->
+
+    <div class="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Roblox ↔ Discord account linking via OAuth 2.0</li>
+        <li>Automatic role assignment based on Roblox group rank</li>
+        <li>Moderation tools within Discord for managing users</li>
+        <li>Secure and transparent handling of user data</li>
+      </ul>
+    </div>
+
+    <div class="support">
+      <p>Questions or concerns? Reach out to a Leeds Karting admin on Discord. You may also request deletion or review of your data.</p>
+    </div>
   </div>
+
+  <footer>
+    Leeds Karting © 2025
+  </footer>
 </body>
 </html>
